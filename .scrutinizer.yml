@@ -1,0 +1,7 @@
+checks:
+    php: true
+
+build:
+    environment:
+        php:
+            version: 5.6, 7.0
