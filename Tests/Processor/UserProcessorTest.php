@@ -67,7 +67,7 @@ class UserProcessorTest extends \PHPUnit_Framework_TestCase
 
     public function testUserAsObject()
     {
-        /** @var UserInterface||PHPUnit_Framework_MockObject_MockObject $user */
+        /** @var UserInterface|\PHPUnit_Framework_MockObject_MockObject $user */
         $user = $this
             ->getMockBuilder(UserInterface::class)
             ->disableOriginalConstructor()
