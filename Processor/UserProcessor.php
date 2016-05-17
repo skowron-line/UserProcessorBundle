@@ -39,9 +39,9 @@ class UserProcessor
         }
 
         /** @var string|UserInterface $user */
-        if (true == $user instanceof UserInterface) {
+        if (true === $user instanceof UserInterface) {
             $rekord['extra']['user'] = $user->getUsername();
-        } elseif (is_string($user)) {
+        } elseif (true === is_string($user)) {
             $rekord['extra']['user'] = $user;
         }
 
