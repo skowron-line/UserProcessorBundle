@@ -5,3 +5,7 @@ build:
     environment:
         php:
             version: 5.6, 7.0
+    tests:
+        override:
+            -
+                command: 'vendor/phpunit/phpunit/phpunit -c phpunit.xml.dist --coverage-text'
