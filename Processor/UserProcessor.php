@@ -24,27 +24,27 @@ class UserProcessor
     }
 
     /**
-     * @param array $rekord
+     * @param array $record
      *
      * @return array
      */
-    public function __invoke(array $rekord)
+    public function __invoke(array $record)
     {
         if (null === ($token = $this->storage->getToken())) {
-            return $rekord;
+            return $record;
         }
 
         if (null === ($user = $token->getUser())) {
-            return $rekord;
+            return $record;
         }
 
         /** @var string|UserInterface $user */
         if (true === $user instanceof UserInterface) {
-            $rekord['extra']['user'] = $user->getUsername();
+            $record['extra']['user'] = $user->getUsername();
         } elseif (true === is_string($user)) {
-            $rekord['extra']['user'] = $user;
+            $record['extra']['user'] = $user;
         }
 
-        return $rekord;
+        return $record;
     }
 }
