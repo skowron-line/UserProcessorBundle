@@ -1,6 +1,6 @@
 <?php
 
-namespace SkowronLine\UserProcesssorBundle\DependencyInjection;
+namespace Skowronline\UserProcesssorBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;

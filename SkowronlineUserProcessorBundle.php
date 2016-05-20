@@ -1,6 +1,6 @@
 <?php
 
-namespace SkowronLine\UserProcesssorBundle;
+namespace Skowronline\UserProcesssorBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
