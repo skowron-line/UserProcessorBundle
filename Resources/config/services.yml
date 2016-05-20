@@ -1,0 +1,4 @@
+services:
+    skowronline.monolog.user.processor:
+        class: Skowronline\UserProcessorBundle\Processor\UserProcessor
+        arguments: ['@security.token_storage']
