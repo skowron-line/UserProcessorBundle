@@ -1,6 +1,7 @@
 # UserProcessorBundle
 
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/skowron-line/UserProcessorBundle/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/skowron-line/UserProcessorBundle/?branch=master) [![Build Status](https://scrutinizer-ci.com/g/skowron-line/UserProcessorBundle/badges/build.png?b=master)](https://scrutinizer-ci.com/g/skowron-line/UserProcessorBundle/build-status/master) [![Code Coverage](https://scrutinizer-ci.com/g/skowron-line/UserProcessorBundle/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/skowron-line/UserProcessorBundle/?branch=master)
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/4bf7ca88-b00c-4b46-a020-807c59a84e13/mini.png)](https://insight.sensiolabs.com/projects/4bf7ca88-b00c-4b46-a020-807c59a84e13)
 
 # Install
 
